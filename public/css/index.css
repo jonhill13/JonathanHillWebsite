@@ -1,0 +1,32 @@
+.navbar {
+	background-color: transparent;
+	border: none;
+}
+/*left class*/
+.textAlignLeft {
+	text-align: left;
+}
+/*center class*/
+.textAlignCenter {
+	text-align: center;
+}
+/*hide class*/
+.hideClass {
+	display: none;
+}
+/*bold class*/
+.boldClass {
+	font-weight: bold;
+}
+/*display inline block*/
+.inlineBlockClass {
+	display: inline-block;
+}
+/*no text decoration*/
+.noListStyle {
+	list-style: none;
+}
+/*no padding*/
+.noPadding {
+	padding: 0;
+}
