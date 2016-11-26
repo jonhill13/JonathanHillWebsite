@@ -3,13 +3,13 @@ $('#chevronUp').on('click', function() {
 	$('#carouselDiv').animate({
 		top: 0,
 		height: 'toggle',
-	}, 1000, function() {
+	}, 500, function() {
 
 	});
 	$('#resumeContainer').animate({
 		bottom: 0,
 		height: 'toggle',
-	}, 1000, function() {
+	}, 500, function() {
 
 	});
 });
@@ -18,13 +18,13 @@ $('#chevronDown').on('click', function() {
 	$('#resumeContainer').animate({
 		bottom: 0,
 		height: 'toggle'
-	}, 1000, function() {
+	}, 500, function() {
 
 	});
 	$('#carouselDiv').animate({
 		top: 0,
 		height: 'toggle'
-	}, 1000, function() {
+	}, 500, function() {
 
 	});
 });
