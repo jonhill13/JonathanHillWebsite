@@ -7,10 +7,10 @@ body {
 }
 #overlayOne {
 	position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 	background-image:
 	linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
 	linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
