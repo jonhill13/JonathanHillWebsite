@@ -48,3 +48,7 @@ $('.handLeft').on('click', function() {
 function showCarouselPage(pageNumber) {
 	$('.carousel').carousel(pageNumber);
 }
+//open close caret
+$('#portfolioA').on('click', function() {
+	$('#portfolioCaret').toggleClass('move');
+});

@@ -22,6 +22,7 @@ body {
 	border-radius: 0;
 }
 .navbar-default .navbar-nav li a {
+	letter-spacing: 1px;
 	color: #fff;
 }
 .navbar-default .navbar-nav li a:hover {
@@ -60,6 +61,9 @@ body {
 	background-color: transparent;
 	color: #fff;
 	opacity: 0.7;
+}
+h2 {
+	letter-spacing: 1px;
 }
 /*left class*/
 .textAlignLeft {
@@ -103,4 +107,15 @@ body {
 }
 .carousel-inner {
 	height: 100%;
+}
+.portfolioCaretMove {
+  transform: rotateX(0deg);
+  transition: transform .25s linear;
+}
+.portfolioCaretMove.move {
+  transform: rotateX(180deg);
+  transition: transform .25s linear;
+}
+.resumeColumnHeader {
+	text-decoration: underline;
 }
